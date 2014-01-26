@@ -1,0 +1,56 @@
+/* CSS Document */
+
+/* 
+
+selector {
+    property: value;
+    property: value;
+    property: value
+}
+
+Each selector is paired with and styles an element. For example:
+
+html {} is paired with and styles <html>
+
+*/
+
+html {
+    font-family: Futura, sans-serif;
+}
+
+body {
+    background-color: #ffcccc;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: Futura, sans-serif;
+    color: #ff3399;
+}
+
+h2 {
+    font-family: Futura, sans-serif;
+    color: #ff3399;
+    font-weight: normal;
+}
+
+body {
+    font-family: Georgia, serif;
+}
+
+hr {
+    border: dotted 2px #ff3399;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+hr + p {
+    color: #ff66cc;
+}
+
+a {
+    color: #ff3399;
+}
